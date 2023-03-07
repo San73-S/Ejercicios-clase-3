@@ -12,10 +12,8 @@ public class Main {
         for (int N: vecNumeros){
             if(numeroSumar < N){
                 sumatoria += N;
-                N += numeroSumar;
 
             }
-            System.out.print(N + " ");
         }
 
         System.out.println("\nLa sumatoria de todos los numeros mayores a " + numeroSumar + " es: " +sumatoria);
